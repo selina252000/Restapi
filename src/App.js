@@ -12,10 +12,9 @@ useEffect(() =>{
 },[]);
  
 console.log("DATA >>", posts)
-
-
   return (
     <>
+    <h1>heloo</h1>
      <ul>
      {posts?.map((post) => (
         <li>{post.title}</li>
